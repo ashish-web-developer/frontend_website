@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@600&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+/* ===========================================*/
+/* header */
+header {
+    width:100%;
+    height:15vh;
+    position:relative;
+    z-index:1;
+}
+
+/* logo */
+header div.logo{
+    display:inline-block;
+    width:35%;
+    height:100%;
+    position:relative;
+    position:relative;
+    z-index:3;
+}
+
+/* logo heading */
+header div.logo h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-family: 'Commissioner', sans-serif;
+    font-size:20px;
+    text-shadow:0.5px 0.5px 3px darkgrey;
+    font-weight:900px;
+    color:white;
+
+}
+
+/* navigation bar */
+
+header nav{
+    display:inline-block;
+    width:65%;
+    height:100%;
+    float:right;
+    position:relative;
+    z-index:3;
+}
+
+
+header nav ul{
+    width:45%;
+    height:100%;
+    float:right;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    list-style:none;
+    align-items:center;
+}
+header nav ul li a{
+    text-decoration:none;
+    font-family: 'Commissioner', sans-serif;
+    color:white;
+    font-size:14px;
+    font-weight:600;
+    text-shadow:0.3px 0.3px 2px darkgrey;
+
+}
+
+header::after{
+    content:"";
+    width:100%;
+    height:50vh;;
+    background-image:url("./images/image-hero-desktop.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    position:absolute;
+    top:0%;
+    left:0%;
+
+}
