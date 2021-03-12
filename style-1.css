@@ -86,3 +86,111 @@ header::after{
     left:0%;
 
 }
+
+
+/*=================================================*/
+/* main content */
+
+main div.card{
+    width:60vw;
+    height:39vh;
+    left:50%;
+    background-color:white;
+    border-radius:10px;
+    box-shadow:0.5px 0.5px 1px darkgrey;
+    
+
+}
+main div.card-1{
+    position:relative;
+    z-index:4;
+    transform:translateX(-50%);
+    margin-top:15%;
+}
+main div.card-1 div.card-logo{
+    display:inline-block;
+    position:absolute;
+    left:50%;
+    top:-14%;
+    transform:translateX(-50%);
+
+}
+h3.heading{
+    font-family: 'Commissioner', sans-serif;
+    position:absolute;
+    font-weight:700;
+    left:50%;
+    font-size:1.2rem;
+    transform:translateX(-50%);
+    width:53%;
+    text-align:center;
+    top:18%;
+}
+p.para{
+    color:darkgrey;
+    position:absolute;
+    left:50%;
+    font-size:0.8rem;
+    transform:translateX(-50%);
+    top:35%;
+    width:90%;
+    text-align:center;
+    font-weight:200;
+    font-family: 'Commissioner', sans-serif;
+}
+/* card ankers */
+div.ankers{
+    position:absolute;
+    margin-top:22%;
+    width:100%;
+    height:30%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+
+div.ankers a.anker-1{
+    background-color:hsl(176, 72%, 28%);
+    padding:3% 6%;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-family: 'Commissioner', sans-serif;
+    font-size:14px;
+    font-weight:600;
+    text-shadow:0.5px 0.5px 1px darkgrey;
+    color:white;
+
+    
+}
+
+
+div.ankers a.anker-2{
+    background-color:#eeeeee;
+    color:hsl(176, 72%, 28%);
+    padding:3% 6% 3% 12%;
+    text-decoration:none;
+    border-radius:25px;
+    font-family: 'Commissioner', sans-serif;
+    position:relative;
+    font-size:14px;
+    font-weight:600;
+    text-shadow:0.5px 0.5px 1px darkgrey;
+ 
+
+   
+}
+
+div.ankers a.anker-2::before{
+    content:"";
+    background-image:url("./images/icon-bookmark.svg");
+    position:absolute;
+    top:0%;
+    left:0%;
+    background-size:100% 100%;
+    background-repeat:no-repeat;
+    width:30%;
+    height:100%;
+
+}
