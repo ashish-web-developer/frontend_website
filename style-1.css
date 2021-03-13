@@ -98,9 +98,12 @@ main div.card{
     background-color:white;
     border-radius:10px;
     box-shadow:0.5px 0.5px 1px darkgrey;
+    transform:translateX(-50%);
+    position:relative;
     
 
 }
+/* card 1 */
 main div.card-1{
     position:relative;
     z-index:4;
@@ -115,28 +118,33 @@ main div.card-1 div.card-logo{
     transform:translateX(-50%);
 
 }
-h3.heading{
-    font-family: 'Commissioner', sans-serif;
+h3.heading-1{
     position:absolute;
-    font-weight:700;
     left:50%;
-    font-size:1.2rem;
     transform:translateX(-50%);
     width:53%;
     text-align:center;
     top:18%;
 }
-p.para{
-    color:darkgrey;
+.heading{
+    font-family:'Commissioner',sans-serif;
+    font-weight:700;
+    font-size:1.2em;
+
+}
+p.para-1{
     position:absolute;
     left:50%;
-    font-size:0.8rem;
     transform:translateX(-50%);
     top:35%;
     width:90%;
     text-align:center;
+}
+p.para{
+    color:darkgrey;
+    font-size:0.8em;
     font-weight:200;
-    font-family: 'Commissioner', sans-serif;
+    font-family:'Commissioner',sans-serif;
 }
 /* card ankers */
 div.ankers{
@@ -194,3 +202,58 @@ div.ankers a.anker-2::before{
     height:100%;
 
 }
+
+/* card-2 */
+div.card-2{
+    margin-top:5%;
+    position:relative;
+}
+
+
+div.card-2 div.data-container{
+    width:100%;
+    position:absolute;
+    top:15%;
+    height:25%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items:center;
+}
+div.data-container div.data{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    width:28%;
+}
+    
+div.card-2 div.data-container h1{
+    font-size:1.4em;
+}
+
+div.card-2 progress{
+    width:90%;
+    top:70%;
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%);
+}
+div.card-2 div.progress-bar-container{
+    width:90%;
+    height:6%;
+    top:80%;
+    position:absolute;
+    left:50%;
+    transform:translatex(-50%);
+    background-color:#eeeeee;
+    border-radius:10px;
+}
+div.card-2 div.progress-bar{
+    width:60%;
+    height:100%;
+    border-radius:10px;
+    background-color:hsl(176, 72%, 28%);
+}
+
