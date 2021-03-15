@@ -140,7 +140,7 @@ p.para-1{
     width:90%;
     text-align:center;
 }
-p.para{
+.para{
     color:darkgrey;
     font-size:0.8em;
     font-weight:200;
@@ -158,7 +158,7 @@ div.ankers{
     align-items:center;
 }
 
-div.ankers a.anker-1{
+a.button{
     background-color:hsl(176, 72%, 28%);
     padding:3% 6%;
     color:black;
@@ -255,5 +255,111 @@ div.card-2 div.progress-bar{
     height:100%;
     border-radius:10px;
     background-color:hsl(176, 72%, 28%);
+}
+
+
+/* card 3 */
+
+#card-3{
+    margin-top:5%;
+    position:relative;
+    height:200vh;
+}
+div#card-3 h1.heading-3{
+    position:absolute;
+    top:3%;
+    left:4%;
+    font-weight:600;
+}
+p#para-2{
+    position:absolute;
+    top:8%;
+    left:4%;
+    font-size:0.95rem;
+    text-align:justify;
+    margin-right:4%;
+    line-height:1.6rem;
+}
+
+div#card-3 div.child-card{
+    width:92%;
+    height:20%;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    border:2px solid #eeeeee;
+    border-radius:5px;
+}
+div#card-3 div.child-card-1{
+    top:33%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+div#card-3 div.child-card-2{
+    top:55%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+div#card-3 div.child-card-3{
+    top:77%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+div#card-3 div.content{
+    display:flex;
+    justify-content:space-between;
+    width:90%;
+
+}
+
+
+div#card-3 div.top-content{
+    margin-top:5%;
+}
+div#card-3 div.middle-content{
+    margin-top:5%;
+}
+div#card-3 div.bottom-content{
+    margin-top:5%;
+}
+div#card-3 h1.card-heading{
+    font-weight:600;
+}
+div#card-3 h1#heading-1{
+    font-size:2rem;
+    font-weight:700;
+}
+div#card-3 h1#heading-2{
+    font-size:2rem;
+    font-weight:700;
+}
+div#card-3 h1#heading-3{
+    font-size:2rem;
+    font-weight:700;
+}
+div#card-3 span.span-1{
+    font-family:"Commissioner",sans-serif;
+    font-weight:400;
+    font-size:0.5em;
+    color:darkgrey;
+}
+div#card-3 p#para-1{
+    font-size:1.03rem;
+}
+div#card-3 p#para-3{
+    font-size:1.03rem;
+}
+div#card-3 p#para-4{
+    font-size:1.03rem;
+}
+
+div#card-3 a.top-link{
+    color:hsl(176, 50%, 47%);
+    font-family:"Commissioner",sans-serif;
+    text-decoration:none;
+    font-weight:400;
 }
 
